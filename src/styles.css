@@ -30,3 +30,15 @@ footer {
     text-align: center;
     padding: 10px;
 }
+header img {
+    width: 200px; /* Cambia el valor al ancho deseado */
+    height: 100px; /* Cambia el valor a la altura deseada */
+}
+.programas .programa img {
+    width: 400px; /* Cambia el valor al ancho deseado */
+    height: 250px; /* Cambia el valor a la altura deseada */
+}
+.Redes-Sociales img {
+    width: 150px; /* Cambia el valor al ancho deseado */
+    height: 100px; /* Cambia el valor a la altura deseada */
+}
