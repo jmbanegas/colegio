@@ -4,52 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNIDAD EDUCATIVA LAS PALMAS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <img src="assets/logo-colegio.jpg" alt="logo-colegio">
-        <h1>UNIDAD EDUCATIVA LAS PALMAS</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Programas Académicos</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Contacto</a></li>
+<body class="font-sans bg-gray-100">
+
+    <header class="bg-blue-500 text-white p-4">
+        <img src="assets/logo-colegio.jpg" alt="logo-colegio" class="h-16 w-16 rounded-full">
+        <h1 class="text-2xl font-bold ml-2">UNIDAD EDUCATIVA LAS PALMAS</h1>
+        <nav class="ml-auto">
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline">Inicio</a></li>
+                <li><a href="#" class="hover:underline">Programas Académicos</a></li>
+                <li><a href="#" class="hover:underline">Noticias</a></li>
+                <li><a href="#" class="hover:underline">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
-    <section class="hero">
-        <h2>Bienvenidos al Colegio Unidad Educativa Las Palmas</h2>
+    <section class="hero bg-gray-200 p-8">
+        <h2 class="text-3xl font-bold mb-4">Bienvenidos al Colegio Unidad Educativa Las Palmas</h2>
         <p>Somos una institución educativa comprometida con la excelencia académica y el desarrollo integral de nuestros estudiantes.</p>
     </section>
 
-    <section class="programas">
+    <section class="programas bg-white p-8">
         <div class="programa">
-            <img src="assets/docentes-colegio.jpg" alt="docentes-colegio">
-        <h2>Programas Académicos</h2>
-        <p>Ofrecemos una amplia gama de programas académicos diseñados para fomentar el aprendizaje y el crecimiento de nuestros estudiantes.</p>
+            <img src="assets/docentes-colegio.jpg" alt="docentes-colegio" class="w-full mb-4">
+            <h2 class="text-2xl font-bold mb-2">Programas Académicos</h2>
+            <p>Ofrecemos una amplia gama de programas académicos diseñados para fomentar el aprendizaje y el crecimiento de nuestros estudiantes.</p>
+        </div>
     </section>
     
-
-    <section class="noticias">
-        <h2>Últimas Noticias</h2>
-        <ul>
-            <li><a href="#">Inscripciones abiertas para el próximo semestre</a></li>
-            <li><a href="#">Celebración del Día del Estudiante</a></li>
-            <li><a href="#">Resultados destacados en la Olimpiada de Matemáticas</a></li>
+    <section class="noticias bg-gray-200 p-8">
+        <h2 class="text-2xl font-bold mb-4">Últimas Noticias</h2>
+        <ul class="list-disc ml-8">
+            <li><a href="#" class="hover:underline">Inscripciones abiertas para el próximo semestre</a></li>
+            <li><a href="#" class="hover:underline">Celebración del Día del Estudiante</a></li>
+            <li><a href="#" class="hover:underline">Resultados destacados en la Olimpiada de Matemáticas</a></li>
         </ul>
     </section>
 
-    <section class="Redes Sociales">
-        <h2>Visita Nuestras Redes Sociales</h2>
-        <li><a href="#">unidadeducativalaspalmas</a></li>
-        <div class="Redes Sociales">
-            <img src="assets/redes-sociales.webp" alt="redes-sociales">
-     </section>
+    <section class="RedesSociales bg-white p-8">
+        <h2 class="text-2xl font-bold mb-4">Visita Nuestras Redes Sociales</h2>
+        <ul class="list-disc ml-8">
+            <li><a href="#" class="hover:underline">unidadeducativalaspalmas</a></li>
+        </ul>
+        <img src="assets/redes-sociales.webp" alt="redes-sociales" class="mt-4 w-48 h-32">
+    </section>
 
-    <footer>
+    <footer class="bg-blue-500 text-white text-center p-4">
         <p>&copy; 2024 Colegio Unidad Educativa Las Palmas - Todos los derechos reservados</p>
     </footer>
 </body>
